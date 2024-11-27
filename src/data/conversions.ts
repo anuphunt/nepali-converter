@@ -6,6 +6,7 @@ export const landConversion = {
   daam: { sqm: 1.99, sqf: 21.39, ropani: 0.00390625, aana: 0.0625, paisa: 0.25 },
   sqm: { sqf: 10.764, ropani: 0.00197, aana: 0.0314, paisa: 0.126, daam: 0.503 },
   sqf: { sqm: 0.0929, ropani: 0.000183, aana: 0.00292, paisa: 0.0117, daam: 0.0467 },
+  acres: { sqm: 4046.86, sqf: 43560, ropani: 7.95, aana: 127.26, paisa: 509.04, daam: 2036.16 },
 };
 
 export const teraiConversion = {
@@ -13,7 +14,8 @@ export const teraiConversion = {
   kattha: { sqm: 338.63, sqf: 3645, bigha: 0.05, dhur: 20 },
   dhur: { sqm: 16.93, sqf: 182.25, bigha: 0.0025, kattha: 0.05 },
   sqm: { sqf: 10.764, bigha: 0.000148, kattha: 0.00295, dhur: 0.0591 },
-  sqf: { sqm: 0.0929, bigha: 0.0000137, kattha: 0.000274, dhur: 0.00549 }
+  sqf: { sqm: 0.0929, bigha: 0.0000137, kattha: 0.000274, dhur: 0.00549 },
+  acres: { sqm: 4046.86, sqf: 43560, bigha: 0.598, kattha: 11.96, dhur: 239.2 }
 };
 
 export const weightConversion = {

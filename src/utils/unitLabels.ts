@@ -3,6 +3,7 @@ export const getUnitLabel = (unit: string): string => {
     // Land units
     sqm: 'square meters',
     sqf: 'square feet',
+    acres: 'acres',
     // Weight units
     kg: 'kilograms',
     g: 'grams',
